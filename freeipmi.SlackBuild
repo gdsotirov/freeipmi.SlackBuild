@@ -19,7 +19,7 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: freeipmi.SlackBuild,v 1.1 2014/02/16 16:06:27 gsotirov Exp $
+# $Id: freeipmi.SlackBuild,v 1.2 2014/02/16 16:07:41 gsotirov Exp $
 #
 
 . ../../slack-package.conf
@@ -82,8 +82,10 @@ gzip_info $PKG
 mkdir -p $PKG/install
 install -m 644 $CWD/slack-desc     $PKG/install/slack-desc
 install -m 644 $CWD/slack-required $PKG/install/slack-required
+install -m 644 $CWD/doinst.sh      $PKG/install/doinst.sh
 
 mkdir -p $PKG/usr/src/slackbuilds/$NAME-$VERSION
+install -m 644 $CWD/doinst.sh        $PKG/usr/src/slackbuilds/$NAME-$VERSION/doinst.sh
 install -m 644 $CWD/slack-desc       $PKG/usr/src/slackbuilds/$NAME-$VERSION/slack-desc
 install -m 644 $CWD/slack-required   $PKG/usr/src/slackbuilds/$NAME-$VERSION/slack-required
 install -m 644 $CWD/$NAME.SlackBuild $PKG/usr/src/slackbuilds/$NAME-$VERSION/$NAME.SlackBuild
