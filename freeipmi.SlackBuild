@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: freeipmi.SlackBuild,v 1.4 2014/03/03 13:10:22 gsotirov Exp $
+# $Id: freeipmi.SlackBuild,v 1.5 2014/03/09 08:43:12 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=freeipmi
-VERSION=1.2.9
+VERSION=1.3.4
 BUILD=${BUILD:-1}
 ARCH=${ARCH:-i486}
 
