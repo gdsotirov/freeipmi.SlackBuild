@@ -1,3 +1,2 @@
-glibc-solibs >= 2.23
-libgcrypt >= 1.7.1
-libgpg-error >= 1.23
+aaa_glibc-solibs >= 2.33
+libgcrypt >= 1.10.0
