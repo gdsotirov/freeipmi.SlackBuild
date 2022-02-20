@@ -23,7 +23,7 @@
 . ../../slack-package.conf
 
 NAME=freeipmi
-VERSION=1.5.7
+VERSION=1.6.9
 ARCH=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
